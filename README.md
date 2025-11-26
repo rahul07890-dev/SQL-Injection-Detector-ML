@@ -30,7 +30,7 @@ SQL-Injection-ML-Detector/
 - **Python 3.9+**
 - **pip installed**
 - **Any IDE** (VS Code recommended)
-- Dataset file: **SQL_Dataset.csv**
+- **Dataset file: `SQL_Dataset.csv`**
 - Columns required:
   - **Query** (payload)
   - **Label** (0 or 1)
@@ -140,8 +140,8 @@ http://localhost:5000
 
 ## Improvements
 
-- Save trained model using joblib
-- Add REST API endpoint (/predict)
+- Save trained model using `joblib`
+- Add REST API endpoint (`/predict`)
 - Add Docker support
 - Deploy on Render / Railway
 - Add logs for prediction activity
