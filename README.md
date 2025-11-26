@@ -39,33 +39,35 @@ SQL-Injection-ML-Detector/
 
 ## Dependencies
 
-- Listed in: requirements.txt
+- flask
+- pandas
+- scikit-learn
 
-
+---
 ##  How It Works
 ### Model Workflow
 
-  -**Loads dataset**
-  -**Vectorizes text using TF-IDF (1–2 n-grams)**
-  -**Trains Logistic Regression classifier**
-  -**Predicts SQL Injection probability for user inputs**
+  - **Loads dataset**
+  - **Vectorizes text using TF-IDF (1–2 n-grams)**
+  - **Trains Logistic Regression classifier**
+  - **Predicts SQL Injection probability for user inputs**
 
 ### Application Flow
 
-  -**User enters a payload in the UI**
-  -**App vectorizes input → ML model**
+  - **User enters a payload in the UI**
+  - **App vectorizes input → ML model**
   - Model returns:
-    -**SQL Injection** (if probability ≥ threshold)
-    -**Benign** (otherwise)
-  -**Threshold controlled by slider (0.50–0.99)
+    - **SQL Injection** (if probability ≥ threshold)
+    - **Benign** (otherwise)
+  - **Threshold controlled by slider (0.50–0.99)
 
 ### UI Features
 
--**Dark theme**
--**Modern card layout**
--**Resizable text area**
--**Gradient badges for SQLi/Benign**
--**Smooth user experience**
+- **Dark theme**
+- **Modern card layout**
+- **Resizable text area**
+- **Gradient badges for SQLi/Benign**
+- **Smooth user experience**
 
 ---
 
@@ -102,12 +104,11 @@ http://localhost:5000
 
 ## Screenshots
 
--**Home Page**
+- **Home Page**
 
 <img width="1913" height="1076" alt="image" src="https://github.com/user-attachments/assets/66699cc0-3ecb-4007-97c1-8b26e08e62e3" />
 
-
--**Prediction Result Page**
+- **Prediction Result Page**
 - Benign payload
 <img width="1916" height="1074" alt="image" src="https://github.com/user-attachments/assets/32a56d50-ade7-4a55-a354-97577b0be392" />
 - Malicious Payload
@@ -116,7 +117,7 @@ http://localhost:5000
 ---
 
 ## Video Demonstration
--**Video Demo**
+- **Video Demo**
 
 
 ---
