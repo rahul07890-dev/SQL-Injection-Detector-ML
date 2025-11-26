@@ -123,7 +123,7 @@ http://localhost:5000
 ## Video Demonstration
 - **Video Demo**
 
-https://github.com/user-attachments/assets/03301a60-b053-460f-a051-a3a1dc78f3a5
+[https://github.com/user-attachments/assets/03301a60-b053-460f-a051-a3a1dc78f3a5](https://github.com/user-attachments/assets/d374c6bd-fd1a-48db-ab00-1f94176a329e)
 
 ---
 
