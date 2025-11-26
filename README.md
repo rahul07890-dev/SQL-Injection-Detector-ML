@@ -110,10 +110,9 @@ http://localhost:5000
 
 - **Prediction Result Page**
   - Benign payload
-<img width="1916" height="1074" alt="image" src="https://github.com/user-attachments/assets/32a56d50-ade7-4a55-a354-97577b0be392" />
-
+    <img width="1916" height="1074" alt="image" src="https://github.com/user-attachments/assets/32a56d50-ade7-4a55-a354-97577b0be392" />
   - Malicious Payload
-<img width="1911" height="1070" alt="image" src="https://github.com/user-attachments/assets/15437aec-ad3d-4098-9465-675f94934a4a" />
+    <img width="1911" height="1070" alt="image" src="https://github.com/user-attachments/assets/15437aec-ad3d-4098-9465-675f94934a4a" />
 
 ---
 
