@@ -32,8 +32,8 @@ SQL-Injection-ML-Detector/
 - **Any IDE** (VS Code recommended)
 - Dataset file: **SQL_Dataset.csv**
 - Columns required:
-  -**Query** (payload)
-  -**Label** (0 or 1)
+  - **Query** (payload)
+  - **Label** (0 or 1)
   
 ---
 
@@ -59,7 +59,7 @@ SQL-Injection-ML-Detector/
   - Model returns:
     - **SQL Injection** (if probability ≥ threshold)
     - **Benign** (otherwise)
-  - **Threshold controlled by slider (0.50–0.99)
+  - **Threshold controlled by slider**(0.50–0.99)
 
 ### UI Features
 
