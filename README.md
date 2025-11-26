@@ -150,8 +150,8 @@ http://localhost:5000
 
 ## Contribution
 
-Pull requests are welcome.
-For major changes, open an issue first.
+- Pull requests are welcome.
+- For major changes, open an issue first.
 
 ---
 
