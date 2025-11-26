@@ -22,7 +22,6 @@ SQL-Injection-ML-Detector/
 ├── Payloads.txt
 ├── requirements.txt
 └── README.md
-
 ```
 ---
 
